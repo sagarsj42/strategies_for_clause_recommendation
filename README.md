@@ -1,2 +1,3 @@
-# strategies_for_clause_recommendation
+# Investing Strategies for Clause Recommendation
+
 Strategies for building context to have legal clause recommendation
