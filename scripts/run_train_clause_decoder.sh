@@ -1,7 +1,9 @@
 # Create the working directory
 mkdir -p working_dir && cd $_
 
-# Transfer serialized embeddings dataset, unzip the contents to get the dataset folder
+# Transfer serialized embeddings dataset corresponding to a base encoder
+# Unzip the contents to get the dataset folder
+# Ensure to use the files corresponding to the same for ids file, clause type (label) embeddings, full contract embeddings
 cp ../path/to/clauserec-lbbase.zip .
 unzip -oq clauserec-lbbase.zip
 
@@ -25,4 +27,5 @@ cp ../path/to/clauserec-tokenizer-wordpiece.json .
 # unzip pretrain-bert-contr-mlm.zip
 
 # Launch the training script, set the parameter nproc_per_node equal to the # GPUs being used
-python -m torch.distributed.launch --nproc_per_node=1 --use_env ~/contract-generation/codes/contgen/train_clause_decoder.py
+# The important parameters to be changed for trying out different experiments in the paper are commented
+python -m torch.distributed.launch --nproc_per_node=1 --use_env ../train/train_clause_decoder.py

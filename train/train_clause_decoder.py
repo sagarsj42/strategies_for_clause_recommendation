@@ -194,7 +194,7 @@ if __name__ == '__main__':
     # only_contract_fullsim_contract: CONTR_TYPE_CLAUSESIM
     STRATEGY = 'only_contract'
     
-    # The # retrieved similar contracts. Set it to K+1
+    # The # retrieved similar contracts
     RETRIEVE_K = 6
 
     # Use ClauseDecoderWithLinear for strategies involving similar contracts, else ClauseDecoder

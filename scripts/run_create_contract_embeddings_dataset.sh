@@ -4,7 +4,7 @@ mkdir -p /scratch/sagarsj42 && cd $_
 # Transfer the map containin all the clauses per contract
 cp ../path/to/contract-clauses.json .
 
-# Transfer and unzip the MLM model if being used for this dataset
+# Transfer and unzip the further pretrained MLM model if being used for this dataset
 # scp sagarsj42@ada:/share1/sagarsj42/pretrain-bert-contr-mlm.zip .
 # unzip -o -qq pretrain-bert-contr-mlm.zip
 
