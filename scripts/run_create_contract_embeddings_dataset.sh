@@ -10,4 +10,4 @@ cp ../path/to/contract-clauses.json .
 
 # Launch the script for contract embedding serialization
 # The script will save the serialied file of contract embeddings to the working directory
-python ~/contract-generation/codes/contgen/create_contract_embeddings_dataset.py
+python ../data/create_contract_embeddings_dataset.py

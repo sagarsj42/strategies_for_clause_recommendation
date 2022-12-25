@@ -5,4 +5,4 @@ mkdir -p working_dir && cd $_
 cp ../path/to/LEDGAR/LEDGAR_2016-2019_clean.jsonl .
 
 # Run the script for preparing the subset for clause recommendation and other auxiliary files
-python ./codes/clause_prediction_dataset_from_ledgar.py
+python ../data/clause_prediction_dataset_from_ledgar.py

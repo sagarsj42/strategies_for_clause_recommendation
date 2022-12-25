@@ -28,4 +28,5 @@ cp ../path/to/clauserec-tokenizer-wordpiece.json .
 
 # Launch the training script, set the parameter nproc_per_node equal to the # GPUs being used
 # The important parameters to be changed for trying out different experiments in the paper are commented
+# The parameters to be changed for trying out different experiments are mentioned in the code file
 python -m torch.distributed.launch --nproc_per_node=1 --use_env ../train/train_clause_decoder.py

@@ -10,7 +10,7 @@ cp ../path/to/pretrain-bert-contr-mlm.zip .
 unzip -o -qq pretrain-bert-contr-mlm.zip
 
 # Launch the script to store the dataset as serialized embeddings
-python ./codes/create_clauserec_embeddings_dataset.py
+python ../data/create_clauserec_embeddings_dataset.py
 
 # Zip the prepared serialized dataset
 zip -r clauserec-mlm.zip clauserec-mlm/

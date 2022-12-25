@@ -8,4 +8,4 @@ cp ../path/to/LEDGAR/LEDGAR_2016-2019_clean.jsonl .
 python ./codes/prepare_mlm_data.py
 
 # Launch the pretraining script
-python ./codes/pretrain_mlm.py
+python ../train/pretrain_mlm.py

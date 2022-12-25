@@ -5,4 +5,4 @@ mkdir -p working_dir && cd $_
 cp ../path/to/label-clauses.json .
 
 # Launch the serialization script, it will store the serializes clause type embeddings in the working directory
-python ./codes/create_label_embeddings_dataset.py
+python ../data/create_label_embeddings_dataset.py

@@ -7,4 +7,4 @@ unzip -oq clauserec-lbbase.zip
 
 # Launch the script for training the tokenizer
 # It saves the tokenizer in a file path pointed by TOKENIZER_PATH
-python --use_env ./codes/contgen/train_tokenizer.py
+python --use_env ../train/train_tokenizer.py
