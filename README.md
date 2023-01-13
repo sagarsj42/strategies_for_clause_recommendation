@@ -1,6 +1,6 @@
 # Investing Strategies for Clause Recommendation
 
-Source code for the paper, "Investigating Strategies for Clause Recommendation" published at JURIX 2022
+Source code for the paper, "Investigating Strategies for Clause Recommendation" published at JURIX 2022  
 You may find the publication [here](https://ebooks.iospress.nl/doi/10.3233/FAIA220450).
 
 ## Reproducing the results
@@ -16,7 +16,6 @@ You'll find the scripts to run inside the ./scripts folder, and code for differe
 ### Preparing the embedding-serialized datasets
 ```
 bash ./scripts/run_create_clauserec_emb_dataset.sh
-bash ./scripts/run_create_label_embeddings_dataset.sh
 bash ./scripts/run_create_label_embeddings_dataset.sh
 ```
 
